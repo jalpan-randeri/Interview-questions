@@ -35,7 +35,7 @@ public class Fibonacci {
 
 
     private static void fibonacci(int i){
-        fibonacciHelper(i, new HashMap<>());
+        fibonacciHelper(i, new HashMap());
     }
 
     private static int fibonacciHelper(int i, HashMap<Integer, Integer> state){
